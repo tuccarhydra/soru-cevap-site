@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SoruCevap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body bgcolor="#666666">
+    <header><img src="logo3.png"/><img src="logo.png"/><img src="logo2.png"/></header>
+    <main>
+	  <div id="s1"><!--  1.soru -->
+      <h2 class="giris"id="mesaj">1. Web sayfasında resim göstermek için kullanılan etiket hangisidir.?</h2>
+      <button type=button class="giris" id="cevab1"  onclick="soruv1()">a. picture</button>
+      <button type=button class="giris" id="cevab2" onclick="soru1()">b. image</button>
+      <button type=button class="giris" id="cevab3" onclick="soruv1()">c. img</button>
+      <button type=button class="giris" id="cevab4" onclick="soruv1()">d. src</button>
+	  </div>
+	  <div id="s2"><!--  2.soru -->
+	  <h2 class="gizle2"id="mesaj2">2. < b > etiketi yazıları kalın kazmak için kullanılır, bu etiketten başka hangi etiket yazıları kalın yapar ?</h2>
+	  <button type=button class="gizle"id="cevab2v1" onclick="soru2()">a. < strong ></button>
+      <button type=button class="gizle"id="cevab2v2" onclick="soruv2()">b. < dar></button>
+      <button type=button class="gizle"id="cevab2v3" onclick="soruv2()">c. < black></button>
+      <button type=button class="gizle"id="cevab2v4" onclick="soruv2()">d. < emp ></button>
+	  </div>
+	  <div id="s3"><!--  3.soru -->
+	  <h2 class="gizle2" id="mesaj3">3. Etiketler ve yazılar hangi bölüme yazılırsa direkt olarak görüntülenmez ?</h2>
+	  <button type=button class="gizle" id="cevab3v1" onclick="soruv3()">a. < html></button>
+      <button type=button class="gizle" id="cevab3v2" onclick="soru3()">b. < head></button>
+      <button type=button class="gizle" id="cevab3v3" onclick="soruv3()">c. < title></button>
+      <button type=button class="gizle" id="cevab3v4" onclick="soruv3()">d. < body></button>
+	  </div>
+	  <div id="s4"><!--  4.soru -->
+	  <h2 class="gizle2" id="mesaj4">4. Web sayfalarına yatay çizgi eklemek için hangi etiket kullanılır ?</h2>
+	  <button type=button class="gizle" id="cevab4v1" onclick="soru4()">a. < hr></button>
+      <button type=button class="gizle" id="cevab4v2" onclick="soruv4()">b. < line></button>
+      <button type=button class="gizle" id="cevab4v3" onclick="soruv4()">c. < line direction="horizontal"></button>
+      <button type=button class="gizle" id="cevab4v4" onclick="soruv4()">d. < tr></button>
+	  </div>
+	  <div id="s5"><!--  5.soru -->
+	  <h2 class="gizle2" id="mesaj5">5. Html sayfalarında kullanılan ilk etiket hangisidir ?</h2>
+	  <button type=button class="gizle" id="cevab5v1" onclick="soruv5()">a. < head></button>
+      <button type=button class="gizle" id="cevab5v2" onclick="soruv5()">b. < title></button>
+      <button type=button class="gizle" id="cevab5v3" onclick="soru5()">c. < html></button>
+      <button type=button class="gizle" id="cevab5v4" onclick="soruv5()">d. < document></button>
+	  </div>
+	  <div id="s6"><!--  6.soru -->
+	  <h2 class="gizle2" id="mesaj6">6. Tabloya satır eklemek için hangi etiket kullanılır ?</h2>
+	  <button type=button class="gizle" id="cevab6v1" onclick="soruv6()">a. < td> DRFZL.com< /td></button>
+      <button type=button class="gizle" id="cevab6v2" onclick="soruv6()">b. < cr> DRFZL.com< /cr></button>
+      <button type=button class="gizle" id="cevab6v3" onclick="soruv6()">c. < th> DRFZL.com< /th></button>
+      <button type=button class="gizle" id="cevab6v4" onclick="soru6()">d. < tr> DRFZL.com< /tr></button>
+	  </div>
+	   
+	  <!--  Sonuç tablo -->
+	  <div>
+	  <span id="span"><h3>DoğruBildiğin:<input type=button id="dogru" value="0"></h3>
+	  <h3>YanlışBildiğin:<input type=button id="yanlis" value="0"></h3>
+	  <h3>ToplamSoru:<input type=button id="toplam" value="0"></h3></span>
+	  
+      <script src="index.js"></script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
