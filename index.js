@@ -1,4 +1,4 @@
-      function soru1(){   //  <---------- 1.soru   ---------->
+	function soru1(){   //  <---------- 1.soru   ---------->
      if("hiding" == status) {
                 alert("zaten gizli durumda");
             } else {
@@ -22,11 +22,9 @@
 				var javascriptDivObject=document.getElementById("cevab2v4");
                 javascriptDivObject.style.display="block";
                 status = "showing";
-            }
-		    var sonuc=document.getElementById("dogru");
-			sonuc.value=Number(sonuc.value)+1;
-			var sonuc=document.getElementById("toplam");
-			sonuc.value=Number(sonuc.value)+1;
+    		var son1 =20;
+	}
+
 }
       function soruv1(){
 	  if("hiding" == status) {
@@ -84,12 +82,10 @@
 				var javascriptDivObject=document.getElementById("cevab3v4");
                 javascriptDivObject.style.display="block";
                 status = "showing";
-            }
-		    var sonuc=document.getElementById("dogru");
-			sonuc.value=Number(sonuc.value)+1;
-			var sonuc=document.getElementById("toplam");
-			sonuc.value=Number(sonuc.value)+1;
-}
+         		var son1 =+ 20;
+		 }
+
+		}
       function soruv2(){
 	  if("hiding" == status) {
                 alert("zaten gizli durumda");
@@ -129,7 +125,7 @@
                 status = "hiding";
 
 				
-				
+
 				var javascriptDivObject=document.getElementById("mesaj4");
                 javascriptDivObject.style.display="block";
                 status = "showing";
@@ -145,12 +141,14 @@
 				var javascriptDivObject=document.getElementById("cevab4v4");
                 javascriptDivObject.style.display="block";
                 status = "showing";
-            }
-		    var sonuc=document.getElementById("dogru");
-			sonuc.value=Number(sonuc.value)+1;
-			var sonuc=document.getElementById("toplam");
-			sonuc.value=Number(sonuc.value)+1;
+				var son1 = son1 +20;
+				  document.getElementById("p1").innerHTML = son1;
+			}
+
 }
+
+
+
       function soruv3(){
 	  if("hiding" == status) {
                 alert("zaten gizli durumda");
